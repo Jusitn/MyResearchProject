@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityMappingToSql", "EntityMappingToSql\EntityMappingToSql.csproj", "{8036C9A3-6CE1-46C1-B590-B3728938AA6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{ED363496-7982-48D6-A212-48A14DCE58B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2Object", "Linq2Object\Linq2Object.csproj", "{5470A4B1-DD7F-4B14-8207-E9F4015B35B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2Sql", "Linq2Sql\Linq2Sql.csproj", "{C4694A20-52D6-4F0B-8FAD-EFA81334259A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{ED363496-7982-48D6-A212-48A14DCE58B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED363496-7982-48D6-A212-48A14DCE58B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED363496-7982-48D6-A212-48A14DCE58B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5470A4B1-DD7F-4B14-8207-E9F4015B35B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5470A4B1-DD7F-4B14-8207-E9F4015B35B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5470A4B1-DD7F-4B14-8207-E9F4015B35B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5470A4B1-DD7F-4B14-8207-E9F4015B35B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4694A20-52D6-4F0B-8FAD-EFA81334259A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4694A20-52D6-4F0B-8FAD-EFA81334259A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4694A20-52D6-4F0B-8FAD-EFA81334259A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4694A20-52D6-4F0B-8FAD-EFA81334259A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
